@@ -14,7 +14,7 @@
 	echo "<br>";
 
 	// Identifier Function boolean
-	$item = 0;
+	$item = true;
 	if(is_bool($item)){
 		echo "true";
 	}
@@ -28,11 +28,5 @@
 		echo $convert;
 
 		echo "<br>";
-	
-
-
-
-
-
 
 ?>

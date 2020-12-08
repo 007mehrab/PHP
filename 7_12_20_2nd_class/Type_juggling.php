@@ -1,5 +1,4 @@
 <?
-	
 
 	// integer juggling
 	$total = 5; // an integer
