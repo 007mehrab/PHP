@@ -11,13 +11,13 @@
 ?>
 
 <?
- $website = "https://www.yahoo.com";
+$website = "https://www.yahoo.com";
 
-  $output = <<<MEHRAB
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
- <a href=" $website">Yahoo.com</a> Laborum, <i>architecto</i>, veniam.</p>
+$output = <<<MEHRAB
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+<a href=" $website">Yahoo.com</a> Laborum, <i>architecto</i>, veniam.</p>
 
- MEHRAB;
+MEHRAB;
 
 ?>
 <hr>
