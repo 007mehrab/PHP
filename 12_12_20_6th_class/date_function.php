@@ -8,7 +8,7 @@ function displayDate(){
 
 	//return date('l-F d,Y');
 	//return date('l-F D,Y');
-	// return date('l-M D,Z');
+	//return date('l-M D,Z');
  	//return date('A-M D,Y');
  	//return date('g-F D,Y');
 	//return date('H-F D,Y');
