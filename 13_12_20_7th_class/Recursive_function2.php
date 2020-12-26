@@ -21,7 +21,7 @@
 
 function factorial($n){
 	if ($n < 0)
-		return - 1;  //for nagetive vcalue
+		return - 1;  //for nagetive value
 	if ($n == 0)
 		return 1;    //for 0 value
 
