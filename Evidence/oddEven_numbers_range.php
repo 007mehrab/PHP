@@ -1,3 +1,10 @@
+<form method="post" action="">
+	<p><input type="text" name="sn" placeholder="Starting Number"></p>
+	<p><input type="text" name="en" placeholder="Ending Number"></p>
+	<input type="submit" name="submit" value="Odd/Even Numbers">
+	
+</form>
+
 <?php
 	if(isset($_POST['submit'])) {
 	
@@ -15,10 +22,3 @@
 	}	
 }	
 ?>
-
-<form method="post" action="">
-	<p><input type="text" name="sn" placeholder="Starting Number"></p>
-	<p><input type="text" name="en" placeholder="Ending Number"></p>
-	<input type="submit" name="submit" value="Odd/Even Numbers">
-	
-</form>
