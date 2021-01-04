@@ -4,11 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Employee Data</title>
+
+<style>
+	.form{
+		background-color: lightgray;
+		border: 2px solid black;
+		width: 200px;	
+	}
+
+</style>
 </head>
 <body>
 
 <center>
-	<form action="employeeinfo.php" name="myform" method="post">
+	<form action="employeeinfo.php" name="myform" method="post" class="form">
+
+		ID : <br>
+		<input type="textbox" name="id" value=""><br>
 		Name : <br>
 		<input type="textbox" name="Name" value=""><br>
 		Designation : <br>

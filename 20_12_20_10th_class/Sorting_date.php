@@ -1,4 +1,5 @@
 <?php
+
  $dates = array('10-10-2011', '2-17-2010', '2-16-2011',
  '1-01-2013', '10-10-2012');
  sort($dates);
@@ -33,4 +34,5 @@
  usort($dates, 'DateSort');
  echo "<p>Sorting the array using the user-defined DateSort() function: </p>";
  print_r($dates);
+ 
 ?>
