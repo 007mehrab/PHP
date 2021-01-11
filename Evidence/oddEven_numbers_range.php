@@ -10,6 +10,7 @@
 	
 	$n1 = $_POST['sn'];
 	$n2 = $_POST['en'];
+	
 	echo "<p> below Odd and Even numbers are between $n1 and $n2</p>";
 	for($i = $n1; $i<=$n2; $i++) {
 		

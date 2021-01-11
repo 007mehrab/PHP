@@ -1,7 +1,7 @@
 <?
 
-echo "<pre>";
-print_r($_FILES);
+// echo "<pre>";
+// print_r($_FILES);
 
 $filename = $_FILES['classnotes']['name'];
 
@@ -10,6 +10,8 @@ $tmpname = $_FILES['classnotes']['tmp_name'];
 $destination = "uploads/";
 
 move_uploaded_file($tmpname, $destination.$filename);
+
+echo "File uploaded"
 
 ?>
 

@@ -40,7 +40,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 	}else{
 
-		if(!preg_match('/^[A-z]{3,12}$/', $name)){
+		if(!preg_match('/^[A-z]{4,8}$/', $name)){
 			$errors[] = "Please Valid Name";
 		}
 	}
